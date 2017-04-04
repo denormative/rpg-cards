@@ -22,6 +22,8 @@
     flex-wrap: wrap;
     page-break-after: always;
     padding: 0;
+    padding-top: 16px;
+    box-sizing: padding-box;
 }
 
 /* A4 paper area */
@@ -87,6 +89,16 @@ page[size="25x35"] {
 .card-size-75x50 .card-back-icon {
     width: 2in;
     height: 2in;
+}
+
+/* Full A4 card */
+.card-size-75x105 {
+    width:7.5in;
+    height:10.5in;
+}
+.card-size-75x105 .card-back-icon {
+    width: 2.5in;
+    height: 2.5in;
 }
 
 /* Card sizes that fill out the entire sheet of paper (minimal margins) */
